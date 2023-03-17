@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    background-color: #333;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  header {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+}
+
+.text-in-header {
+  background-color: #121212;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 45%;
+  max-width: 300px;
+}
+
+@media (prefers-color-scheme: dark) {
+  section {
+    /* background-color: #282828; */
+    color:#f5f5f5;
+    border-radius: 5px;
+  }
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #999999;
+}
+
+.btn-win {
+  background-color: #0078d7;
+}
+
+.btn-android {
+  background-color: #3e8e41;
+}
+
+.btn-web {
+  background-color: #FF5722;
+}
+
+.btn-linux {
+  background-color: #f8981d;
+}
+
+.btn-unavailable {
+  background-color: #999999;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  footer {
+    background-color: #121212;
+  }
+}
